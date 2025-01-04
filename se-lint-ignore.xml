@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+
+	<!-- titlepage.xhtml -->
+	<file path="titlepage.xhtml">
+		<ignore>
+			<code>s-021</code>
+			<reason>translated contents</reason>
+		</ignore>
+	</file>
+	<file path="uncopyright.xhtml">
+		<ignore>
+			<code>s-022</code>
+			<reason>translated contents</reason>
+		</ignore>
+	</file>
+
+	<!-- colophon.xhtml -->
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>m-007</code>
+			<reason>article within a book requires page reference</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>s-048</code>
+			<reason>italics used to signify language change when applied to short story</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>s-060</code>
+			<reason>italics used to signify language change when applied to short story</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>no end punctuation as not using complete sentences</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>no end punctuation as not using complete sentences</reason>
+		</ignore>
+	</file>
+
+	<!-- content.opf -->
+	<file path="content.opf">
+		<ignore>
+			<code>m-007</code>
+			<reason>article within a book requires page reference</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-042</code>
+			<reason>non-standard</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-009</code>
+			<reason>not SE-hosted</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
