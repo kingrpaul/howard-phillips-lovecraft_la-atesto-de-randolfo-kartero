@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-
 	<!-- titlepage.xhtml -->
 	<file path="titlepage.xhtml">
 		<ignore>
@@ -14,7 +13,6 @@
 			<reason>translated contents</reason>
 		</ignore>
 	</file>
-
 	<!-- colophon.xhtml -->
 	<file path="colophon.xhtml">
 		<ignore>
@@ -46,7 +44,6 @@
 			<reason>no end punctuation as not using complete sentences</reason>
 		</ignore>
 	</file>
-
 	<!-- content.opf -->
 	<file path="content.opf">
 		<ignore>
