@@ -28,7 +28,6 @@
 	height: 15em;
     width: auto;
 	margin: 0 auto 0.5em auto;
-	width: auto;
 }
 
 #uncopyright{
@@ -37,10 +36,9 @@
 
 #uncopyright img{
 	display: block;
-	height: 7em;
-    width: auto;
-	margin: 0 auto;
-	width: auto;
+	width:50%;
+	max-width: 40em;
+	margin: 1em auto;
 }
 
 #uncopyright p{
