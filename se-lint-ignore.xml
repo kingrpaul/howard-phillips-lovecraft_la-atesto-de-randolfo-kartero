@@ -7,12 +7,6 @@
 			<reason>translated contents</reason>
 		</ignore>
 	</file>
-	<file path="uncopyright.xhtml">
-		<ignore>
-			<code>s-022</code>
-			<reason>translated contents</reason>
-		</ignore>
-	</file>
 	<!-- colophon.xhtml -->
 	<file path="colophon.xhtml">
 		<ignore>
@@ -53,14 +47,19 @@
 	</file>
 	<file path="content.opf">
 		<ignore>
-			<code>m-042</code>
-			<reason>non-standard</reason>
-		</ignore>
-	</file>
-	<file path="content.opf">
-		<ignore>
 			<code>m-009</code>
 			<reason>not SE-hosted</reason>
 		</ignore>
 	</file>
+
+	<!-- SVG FILES -->
+
+	<!-- DISTRIBUTION FILES -->
+	<file path="*.*">
+		<ignore>
+			<code>f-001</code>
+			<reason>distribution files</reason>
+		</ignore>
+	</file>
+
 </se-lint-ignore>

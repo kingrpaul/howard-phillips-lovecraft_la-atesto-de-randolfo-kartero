@@ -1,28 +1,26 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-#imprint img{
+/* IMPRINT */
+section[epub|type~="imprint"] img {
 	display: block;
 	height: 4em;
     width: auto;
 	margin: 0 auto;
-	width: auto;
 }
 
+/* COLOPHON  */
 #colophon[epub|type~="colophon"] p{
 	line-height: 1;
 	margin: 0.5em;
 }
-
 #colophon p + p::before{
 	display: none;
 }
-
 #colophon hr{
 	margin: 0.5em auto;
 	padding: 0;
 }
-
 #colophon img{
 	display: block;
 	height: 15em;
@@ -30,19 +28,13 @@
 	margin: 0 auto 0.5em auto;
 }
 
-#uncopyright{
+/* UNCOPYRIGHT  */
+section[epub|type~="copyright-page"] {
 	text-align: center;
 }
-
-#uncopyright img{
+section[epub|type~="copyright-page"] img{
 	display: block;
 	width:50%;
 	max-width: 40em;
 	margin: 1em auto;
-}
-
-#uncopyright p{
-	margin: 1em auto 0 auto;
-	width: fit-content;
-	width: fit-content;
 }
