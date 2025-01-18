@@ -2,39 +2,43 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* IMPRINT */
-section[epub|type~="imprint"] img {
+section[epub|type~="imprint"] img{
 	display: block;
 	height: 4em;
-    width: auto;
 	margin: 0 auto;
+	width: auto;
 }
 
-/* COLOPHON  */
+/* COLOPHON */
 #colophon[epub|type~="colophon"] p{
 	line-height: 1;
 	margin: 0.5em;
 }
+
 #colophon p + p::before{
 	display: none;
 }
+
 #colophon hr{
 	margin: 0.5em auto;
 	padding: 0;
 }
+
 #colophon img{
 	display: block;
 	height: 15em;
-    width: auto;
 	margin: 0 auto 0.5em auto;
+	width: auto;
 }
 
-/* UNCOPYRIGHT  */
-section[epub|type~="copyright-page"] {
+/* UNCOPYRIGHT */
+section[epub|type~="copyright-page"]{
 	text-align: center;
 }
+
 section[epub|type~="copyright-page"] img{
 	display: block;
-	width:50%;
-	max-width: 40em;
 	margin: 1em auto;
+	max-width: 40em;
+	width: 50%;
 }

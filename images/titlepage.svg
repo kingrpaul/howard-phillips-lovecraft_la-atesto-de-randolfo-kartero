@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 520">
-	<title>The titlepage for the Standard Ebooks edition of La Atesto de Randolfo Kartero, by Howard Phillips Lovecraft</title>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 420">
+	<title>Titlepage</title>
 	<style type="text/css">
 		text{
 			font-family: "League Spartan";
@@ -15,9 +15,16 @@
 		.author{
 			font-size: 70.17543793px;
 		}
+
+		.contributor-descriptor{
+			font-family: "OFL Sorts Mill Goudy";
+			font-size: 60px;
+			font-style: italic;
+			letter-spacing: 0;
+		}
 	</style>
 	<text class="title" x="700" y="130">LA ATESTO DE</text>
 	<text class="title" x="700" y="230">RANDOLFO KARTERO</text>
-	<text class="author" x="700" y="390">HOWARD</text>
-	<text class="author" x="700" y="470">PHILLIPS LOVECRAFT</text>
+	<text class="contributor-descriptor" x="700" y="310">from “The Statement of Randolph Carter” by</text>
+	<text class="author" x="700" y="410">H. P. LOVECRAFT</text>
 </svg>

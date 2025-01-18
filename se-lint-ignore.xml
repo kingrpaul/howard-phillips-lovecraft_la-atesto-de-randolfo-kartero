@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<!-- titlepage.xhtml -->
+
+	<file path="the-statement-of-randolph-carter.xhtml">
+		<ignore>
+			<code>s-033</code>
+			<reason>dual-language document</reason>
+		</ignore>
+	</file>
+
+	<!-- CONTENT -->	
+	<file path="content.opf">
+		<ignore>
+			<code>m-007</code>
+			<reason>article within a book requires page reference</reason>
+		</ignore>
+	</file>
+
+	<!-- TITLEPAGE -->
 	<file path="titlepage.xhtml">
 		<ignore>
 			<code>s-021</code>
-			<reason>translated contents</reason>
+			<reason>title not in English</reason>
 		</ignore>
 	</file>
-	<!-- colophon.xhtml -->
+
+	<!-- COLOPHON -->
 	<file path="colophon.xhtml">
 		<ignore>
 			<code>m-007</code>
@@ -38,27 +55,18 @@
 			<reason>no end punctuation as not using complete sentences</reason>
 		</ignore>
 	</file>
-	<!-- content.opf -->
-	<file path="content.opf">
-		<ignore>
-			<code>m-007</code>
-			<reason>article within a book requires page reference</reason>
-		</ignore>
-	</file>
-	<file path="content.opf">
-		<ignore>
-			<code>m-009</code>
-			<reason>not SE-hosted</reason>
-		</ignore>
-	</file>
 
 	<!-- SVG FILES -->
-
-	<!-- DISTRIBUTION FILES -->
-	<file path="*.*">
+	<file path="cover.svg">
 		<ignore>
-			<code>f-001</code>
-			<reason>distribution files</reason>
+			<code>s-028</code>
+			<reason>cover.svg and titlepage.svg title elements don't match</reason>
+		</ignore>
+	</file>
+	<file path="titlepage.svg">
+		<ignore>
+			<code>s-003</code>
+			<reason>special case, reader</reason>
 		</ignore>
 	</file>
 
